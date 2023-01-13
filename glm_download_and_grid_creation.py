@@ -24,6 +24,8 @@
 # Note: In this preliminary test, a "scripts" folder have been created inside the main dir
 #
 # Execute the glm_download_and_grid_creation.py and then glm_grid_aggregation_and_plot
+#
+# TODO: Create and example with reprojected data
 #-----------------------------------------------------------------------------------------------------------
 
 #-----------------------------------------------------------------------------------------------------------
