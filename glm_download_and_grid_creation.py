@@ -51,7 +51,7 @@ from utilities import download_CMI, download_GLM       # Functions to download A
 input = "samples"; os.makedirs(input, exist_ok=True)
 
 # Initial datetime to process
-yyyymmddhhmn = '202301101700'
+yyyymmddhhmn = '202011251815'
 
 # Minutes do download (after the initial file)
 minutes = '5'
