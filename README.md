@@ -20,6 +20,12 @@
 
   pip install -e .
 
-**3.** Download and execute the scripts 
+**3.** Download and execute the scripts, in this order:
+
+First: glm_download_and_grid_creation.py 
+(Note: Select the desired time, date and the number of minutes you would like to download. Also, necessary changing the location of your make_GLM_grids.py script)
+
+Second: glm_grid_aggregation_and_plot.py
+(Note: List the gridded files and select the extent you would like to plot)
 
 **Note:** In this preliminary test, a "scripts" folder have been created inside the main dir
