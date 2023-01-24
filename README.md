@@ -29,6 +29,7 @@ Second: glm_grid_aggregation_and_plot.py
 (Note: List the gridded files and select the extent you would like to plot)
 
 Extra: glm_grid_aggregation_and_plot_reprojection.py
+
 The same plot but in the cylindrical equidistant projection
 (Note: List the gridded files and select the extent you would like to plot)
 
