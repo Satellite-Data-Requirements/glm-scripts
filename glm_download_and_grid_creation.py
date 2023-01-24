@@ -5,27 +5,6 @@
 # Reference: https://github.com/deeplycloudy/glmtools/blob/master/examples/plot_glm_test_data.ipynb
 # Author: Diego Souza
 # Date: Jan-12-2023
-#
-# Installation and usage:
-#
-# 1. Clone the repository: https://github.com/deeplycloudy/glmtools
-# 
-# 2. On the terminal, access the main dir and execute the following commands:
-#
-# conda env create -f environment.yml
-# conda activate glmval
-# conda install -c conda-forge matplotlib dask cartopy boto3 gdal
-# conda install git pip
-# pip install git+https://github.com/deeplycloudy/lmatools.git
-# pip install git+https://github.com/deeplycloudy/stormdrain.git
-# pip install -e .
-#
-# 3. Download and execute the scripts 
-# Note: In this preliminary test, a "scripts" folder have been created inside the main dir
-#
-# Execute the glm_download_and_grid_creation.py and then glm_grid_aggregation_and_plot
-#
-# TODO: Create and example with reprojected data
 #-----------------------------------------------------------------------------------------------------------
 
 #-----------------------------------------------------------------------------------------------------------
@@ -38,10 +17,15 @@ import tempfile                                        # Generate temporary file
 import numpy as np                                     # Fundamental package for scientific computing
 import pandas as pd                                    # Data analysis and manipulation tool
 import glmtools                                        # glmtools utilities
+import time as t                                       # Time access and conversion
 from glmtools.io.glm import GLMDataset                 # glmtools utilities
 from glmtools.test.common import get_sample_data_path  # glmtools utilities
 from datetime import datetime, timedelta               # Basic Dates and time types
 from utilities import download_CMI, download_GLM       # Functions to download ABI and GLM data
+
+#-----------------------------------------------------------------------------------------------------------
+# Start the time counter
+start_time = t.time() 
 
 #-----------------------------------------------------------------------------------------------------------
 # DOWNLOAD GLM SAMPLES FROM AMAZON WEB SERVICES
@@ -137,3 +121,6 @@ grid_dir_base = grid_dir
 nc_files = glob.glob(os.path.join(grid_dir_base, startdate.strftime('%Y/%b/%d'),'*.nc'))
 print(nc_files)
 #-----------------------------------------------------------------------------------------------------------
+
+# End the time counter
+print('\nTotal Processing Time:', round((t.time() - start_time),2), 'seconds.') 

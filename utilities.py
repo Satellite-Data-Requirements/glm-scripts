@@ -281,7 +281,7 @@ def convertExtent2GOESProjection(extent):
     return (a * GOES16_HEIGHT, c * GOES16_HEIGHT, b * GOES16_HEIGHT, d * GOES16_HEIGHT)
 
 #-----------------------------------------------------------------------------------------------------------
-'''
+
 # Function to reproject the data
 def reproject(file_name, ncfile, array, extent, undef):
 
@@ -312,4 +312,4 @@ def reproject(file_name, ncfile, array, extent, undef):
 
     # Write the reprojected file on disk
     gdal.Warp(file_name, raw, **kwargs)
-'''
+
