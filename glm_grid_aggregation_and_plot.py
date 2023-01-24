@@ -1,12 +1,14 @@
 #-----------------------------------------------------------------------------------------------------------
 # WMO RA III and RA IV SDR Data Processing and Visualization Task Force 
 # Target Product(s): GLM FED, TOE and FMA
-# Script: Aggregate 1 min grids into a time series and accumulate in time 
+# Script: Aggregate 1 min grids into a time series and accumulate in time + plot (reprojection)
 # References: 
 # https://github.com/deeplycloudy/glmtools/blob/master/examples/aggregate_and_plot.ipynb
 # https://github.com/deeplycloudy/glmtools/blob/eee269127a8c6471379f331bd9de3b4659867211/glmtools/io/imagery.py
 # https://github.com/deeplycloudy/glmtools/blob/eee269127a8c6471379f331bd9de3b4659867211/glmtools/plot/grid.py
 # Author: Diego Souza
+# Contributors: Alejandro Sierra (LANOT - Mexico), Joao Huaman (SENAMHI - Peru)
+# Date: Jan-12-2023
 #-----------------------------------------------------------------------------------------------------------
 
 #-----------------------------------------------------------------------------------------------------------

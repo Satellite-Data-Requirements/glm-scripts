@@ -2,8 +2,10 @@
 # WMO RA III and RA IV SDR Data Processing and Visualization Task Force 
 # Target Product(s): GLM FED, TOE and FMA
 # Script: Create grids on the ABI fixed grid
-# Reference: https://github.com/deeplycloudy/glmtools/blob/master/examples/plot_glm_test_data.ipynb
-# Author: Diego Souza
+# References: 
+# https://github.com/deeplycloudy/glmtools/blob/master/examples/plot_glm_test_data.ipynb
+# Author: Diego Souza (INPE - Brazil)
+# Contributors: Alejandro Sierra (LANOT - Mexico), Joao Huaman (SENAMHI - Peru)
 # Date: Jan-12-2023
 #-----------------------------------------------------------------------------------------------------------
 
