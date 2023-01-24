@@ -43,7 +43,7 @@ start_time = t.time()
 
 # Desired extent
 extent = [-92.0, 29.0, -89.0, 32.0] # Min lon, Min lat, Max lon, Max lat
-#extent = [-90.0, -60.0, -30.0, 15.0] # Min lon, Min lat, Max lon, Max lat
+#extent = [-59.0, -34.0, -53.0, -28.0] # Min lon, Min lat, Max lon, Max lat
 
 #-----------------------------------------------------------------------------------------------------------
 # AGGREGATE THE GLM GRIDDED FILES
