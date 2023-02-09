@@ -1,3 +1,4 @@
+![image](https://user-images.githubusercontent.com/54595784/217687189-61840c44-5975-4043-8693-48711bb4b677.png)
 ![image](https://user-images.githubusercontent.com/54595784/213831880-7b7c7da6-8c2e-45c8-89ec-ae978f61d141.png)
 
 ## Installation and usage:
